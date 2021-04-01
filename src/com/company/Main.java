@@ -71,7 +71,7 @@ public class Main {
                 System.out.println("Rømer " + KelvinToRømer);
                 System.out.println("Delisle " + KelvinToDelisle);
                 System.out.println("Newton " + KelvinToNewton);
-
+                break;
             default:
                 break;
         }
