@@ -89,6 +89,23 @@ public class Main {
                 System.out.println("Delisle " + RankineToDelisle);
                 System.out.println("Newton " + RankineToNewton);
                 break;
+            case 5:
+                double RéaumurToCelsjusz = 1.25 * degrees;
+                double RéaumurToFahrenheit = (degrees * 2.25) + 32;
+                double RéaumurToKelvin = (degrees - 273.15) * 0.80000;
+                double RéaumurToRankine = (degrees - 491.67) * 0.44444;
+                double RéaumurToRømer = (degrees - 7.5) * 1.5238;
+                double RéaumurToDelisle = degrees * 1.8750 - 100.00;
+                double RéaumurToNewton = degrees * 0.41250;
+
+                System.out.println("Celsjusz " + RéaumurToCelsjusz);
+                System.out.println("Fahrenheit " + RéaumurToFahrenheit);
+                System.out.println("Kelvin " + RéaumurToKelvin);
+                System.out.println("Rankine " + RéaumurToRankine);
+                System.out.println("Rømer " + RéaumurToRømer);
+                System.out.println("Delisle " + RéaumurToDelisle);
+                System.out.println("Newton " + RéaumurToNewton);
+                break;
             default:
                 break;
         }
