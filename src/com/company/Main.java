@@ -106,7 +106,59 @@ public class Main {
                 System.out.println("Delisle " + RéaumurToDelisle);
                 System.out.println("Newton " + RéaumurToNewton);
                 break;
+            case 6:
+                double RømerToCelsjusz = (degrees - 7.5) * 40 / 21;
+                double RømerToFahrenheit = (degrees - 7.5) * 24 / 7 + 32;
+                double RømerToKelvin = (degrees - 7.5) * 40 / 21 + 273.15;
+                double RømerToRankine = (degrees - 7.5) * 3.4286 + 491.67;
+                double RømerToRéaumur = (degrees - 7.5) * 1.5238;
+                double RømerToDelisle = (degrees - 7.5) * 2.8571 - 100.00;
+                double RømerToNewton = (degrees - 7.5) * 0.62857;
+
+                System.out.println("Celsjusz " + RømerToCelsjusz);
+                System.out.println("Fahrenheit " + RømerToFahrenheit);
+                System.out.println("Kelvin " + RømerToKelvin);
+                System.out.println("Rankine " + RømerToRankine);
+                System.out.println("Réaumur " + RømerToRéaumur);
+                System.out.println("Delisle " + RømerToDelisle);
+                System.out.println("Newton " + RømerToNewton);
+                break;
+            case 7:
+                double DelisleToCelsjusz = 100 - degrees * 2 / 3;
+                double DelisleToFahrenheit = (212 - (degrees)) * 6 / 5;
+                double DelisleToKelvin = (degrees + 100) / 1.5 + 273.15;
+                double DelisleToRankine = (degrees + 100) * 1.2000 + 491.67;
+                double DelisleToRéaumur = (degrees + 100) * 0.53333;
+                double DelisleToRømer = (degrees + 100) * 0.35000 + 7.50;
+                double DelisleToNewton = (degrees + 100) * 0.22000;
+
+                System.out.println("Celsjusz " + DelisleToCelsjusz);
+                System.out.println("Fahrenheit " + DelisleToFahrenheit);
+                System.out.println("Kelvin " + DelisleToKelvin);
+                System.out.println("Rankine " + DelisleToRankine);
+                System.out.println("Réaumur " + DelisleToRéaumur);
+                System.out.println("Rømer " + DelisleToRømer);
+                System.out.println("Newton " + DelisleToNewton);
+                break;
+            case 8:
+                double NewtonToCelsjusz = degrees * 100 / 33;
+                double NewtonToFahrenheit = degrees * 60 / 11 + 32;
+                double NewtonToKelvin = degrees / 0.33000 + 275.15;
+                double NewtonToRankine = degrees * 5.4545 + 491.67;
+                double NewtonToRéaumur = degrees * 2.4242;
+                double NewtonToRømer = degrees * 1.5909 + 7.50;
+                double NewtonToDelisle = degrees * 4.5455 - 100.00;
+
+                System.out.println("Celsjusz " + NewtonToCelsjusz);
+                System.out.println("Fahrenheit " + NewtonToFahrenheit);
+                System.out.println("Kelvin " + NewtonToKelvin);
+                System.out.println("Rankine " + NewtonToRankine);
+                System.out.println("Réaumur " + NewtonToRéaumur);
+                System.out.println("Rømer " + NewtonToRømer);
+                System.out.println("Delisle " + NewtonToDelisle);
+                break;
             default:
+                System.out.println("Wrong choice");
                 break;
         }
     }
