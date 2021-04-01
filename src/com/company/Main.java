@@ -72,6 +72,23 @@ public class Main {
                 System.out.println("Delisle " + KelvinToDelisle);
                 System.out.println("Newton " + KelvinToNewton);
                 break;
+            case 4:
+                double RankineToCelsjusz = (degrees / 1.8) - 273.15;
+                double RankineToFahrenheit = degrees - 489.67;
+                double RankineToKelvin = degrees * 5 / 9;
+                double RankineToRéaumur = (degrees - 491.67) * 0.44444;
+                double RankineToRømer = (degrees - 491.67) * 0.29167 + 7.50;
+                double RankineToDelisle = (degrees - 491.67) * 0.83333 - 100.00;
+                double RankineToNewton = (degrees - 491.67) * 0.18333;
+
+                System.out.println("Celsjusz " + RankineToCelsjusz);
+                System.out.println("Fahrenheit " + RankineToFahrenheit);
+                System.out.println("Kelvin " + RankineToKelvin);
+                System.out.println("Réaumur " + RankineToRéaumur);
+                System.out.println("Rømer " + RankineToRømer);
+                System.out.println("Delisle " + RankineToDelisle);
+                System.out.println("Newton " + RankineToNewton);
+                break;
             default:
                 break;
         }
